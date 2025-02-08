@@ -18,6 +18,7 @@
 		1F4687F52D57B3310094BEB6 /* Animation - 1738947483029.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F4687F42D57B3310094BEB6 /* Animation - 1738947483029.json */; };
 		1F4687F72D57B3540094BEB6 /* Lottie Lego.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F4687F62D57B3540094BEB6 /* Lottie Lego.json */; };
 		1F4687F92D57B3C00094BEB6 /* Animation - 1739029538474.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F4687F82D57B3C00094BEB6 /* Animation - 1739029538474.json */; };
+		1F4687FB2D57B3EB0094BEB6 /* FavoriteAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4687FA2D57B3EB0094BEB6 /* FavoriteAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		1F4687F42D57B3310094BEB6 /* Animation - 1738947483029.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Animation - 1738947483029.json"; sourceTree = "<group>"; };
 		1F4687F62D57B3540094BEB6 /* Lottie Lego.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Lottie Lego.json"; sourceTree = "<group>"; };
 		1F4687F82D57B3C00094BEB6 /* Animation - 1739029538474.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Animation - 1739029538474.json"; sourceTree = "<group>"; };
+		1F4687FA2D57B3EB0094BEB6 /* FavoriteAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		1F4687E92D5675B60094BEB6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1F4687FA2D57B3EB0094BEB6 /* FavoriteAnimation.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 			files = (
 				1F4687E62D5675A50094BEB6 /* ContentView.swift in Sources */,
 				1F4687E72D5675A50094BEB6 /* LottiesAnimationsListApp.swift in Sources */,
+				1F4687FB2D57B3EB0094BEB6 /* FavoriteAnimation.swift in Sources */,
 				1F4687EB2D5675E30094BEB6 /* AnimationsListView.swift in Sources */,
 				1F4687F22D57B2830094BEB6 /* LottiesView.swift in Sources */,
 			);
