@@ -11,7 +11,7 @@ struct FavoriteAnimation: Identifiable {
     
     let id = UUID()
     let fileName: String
-    let decription: String
+    let description: String
     
     
     
@@ -21,9 +21,9 @@ struct FavoriteAnimation: Identifiable {
 
 let favorites = [
     
-    FavoriteAnimation(fileName: "Animation - 1739029538474.json", decription: "dog"),
-    FavoriteAnimation(fileName: "Animation - 1738947483029.json", decription: "cat"),
-    FavoriteAnimation(fileName: "Lottie Lego.json", decription: "lego")
+    FavoriteAnimation(fileName: "dog.json", description: "dog"),
+    FavoriteAnimation(fileName: "cat.json", description: "cat"),
+    FavoriteAnimation(fileName: "lego.json", description: "lego")
     
     
 ]
